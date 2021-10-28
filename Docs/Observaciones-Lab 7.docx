@@ -1,6 +1,7 @@
 a. ¿Qué diferencia existe entre las alturas de los dos árboles (BST y RBT)?
 -Segun la ejecucion del view.py la altura del arbol del RBT es menor a la altura del arbol BST. Pues estos tuvieron resultados
-de 13 y 29, respectivamente. Por otra parte
-b. ¿Por qué pasa esto?
--Esto ocurre debido a que en el arbol BST la complejidad del programa depende en la forma en la que se ingresen los elementos. 
-Mientras que el RBT, 
+de 13 y 29, respectivamente. Esto ocurre debido a que en el arbol BST la complejidad del programa depende en la forma en la que se ingresen los elementos. 
+Otro aspecto del cual podemos hablar frente a los arboles de búsqueda binarios y los arboles rojo-negro es respecto a su equilibrio. 
+Recordemos que un árbol esta equilibrado si las alturas de los dos sub arboles de todos los nodos del arbol.  
+Una diferencia clara entre estos dos tipos de arboles es que el árbol BST es un árbol desvalanceado mientras que el árbol RBT sí es un árbol organizado autónomamente. 
+Cualquier árbol rojo-negro se  es un árbol de búsqueda binaria, pero no todo árbol binario  es un árbol rojo negro.
