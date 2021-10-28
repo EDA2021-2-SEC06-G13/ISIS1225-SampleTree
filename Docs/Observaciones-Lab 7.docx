@@ -1,21 +1,6 @@
-
-A) 
-Se puede llegar a varias conclusiones sobre el numero de elementos en un árbol 
-y su tamaño (niveles). Por ejemplo, el numero de niveles siempre será menor al 
-numero de elementos en el árbol esto debido a que el nodo raid es el nivel numero 
-0 y es el “primer” elemento, lo que nos indica que no importa la cantidad de hijos 
-que tengan los nodos en este árbol, el numero de elementos siempre será mayor.
-
-B)
-Después de conversar con mi compañero de equipo llegamos a la conclusión que es mejor si la información estuviese en un BST que en una tabla de hash debido a ciertas razones:
-1. El límite superior de  operaciones como insertar, eliminar y entre otras en el árbol de búsqueda binaria  es O (log n). Mientras que  en el caso de las tablas hash, no existe un límite superior. La complejidad promedio de la operación es O (1), 
-2. El árbol de búsqueda binaria almacena los datos, en este caso de mortalidad, de manera ordenada, es decir, solo necesitamos recorrer el BST en orden. Pero en una tabla hash, debemos atravesar todos los elementos y ordenarlos usando alguna técnica de clasificación
-Estas son algunas razones por las que el tiempo seria menor usando BTS y no tablas de hash.
-
-
-C)
-Utilizando nuestro programa como ejemplo, podemos ver que existen ciertas operaciones las
- cuales son necesarias para poder retornar la lista ordenada con los requerimientos necesitados. En este caso, la
-  operación de insertar es totalmente fundamental para esto ya que esto hace que la lista tenga la información necesitada
-   y aparte tiene que estar ordenada. La operación de buscar es necesitada ya que con esta vamos a determinar si x dato tiene que 
-   estar en la lista que será entregada
+a. ¿Qué diferencia existe entre las alturas de los dos árboles (BST y RBT)?
+-Segun la ejecucion del view.py la altura del arbol del RBT es menor a la altura del arbol BST. Pues estos tuvieron resultados
+de 13 y 29, respectivamente. Por otra parte
+b. ¿Por qué pasa esto?
+-Esto ocurre debido a que en el arbol BST la complejidad del programa depende en la forma en la que se ingresen los elementos. 
+Mientras que el RBT, 
